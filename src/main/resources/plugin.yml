@@ -1,0 +1,33 @@
+name: ItemLWC
+main: org.patschgo.plugins.itemlwc.ItemLwcPlugin
+version: 1.0.0-SNAPSHOT
+author: GitHub Copilot
+depend: [LWC]
+softdepend: [Vault, iConomy, Essentials]
+description: Unlock inactive LWC chests and add a chat-based protection workflow.
+commands:
+  reset:
+    description: Reset ItemLWC inactivity timer for a targeted protected chest.
+    usage: /reset lwc
+permissions:
+  itemlwc.use:
+    description: Allows using ItemLWC touch interactions such as the chat-based protection setup trigger.
+    default: false
+  itemlwc.create:
+    description: Allows creating all ItemLWC protection types through the chat menu.
+    default: false
+  itemlwc.create.private:
+    description: Allows creating private protections through the ItemLWC chat menu.
+    default: false
+  itemlwc.create.password:
+    description: Allows creating password protections through the ItemLWC chat menu.
+    default: false
+  itemlwc.create.public:
+    description: Allows creating public protections through the ItemLWC chat menu.
+    default: false
+  itemlwc.reset:
+    description: Allows resetting inactivity timers for chests owned by other players.
+    default: op
+  itemlwc.admin:
+    description: Allows removing any protection by sneak right-clicking with the configured admin tool.
+    default: op

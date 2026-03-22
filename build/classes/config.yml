@@ -1,0 +1,30 @@
+unlock:
+  inactive-days: 30
+  scan-interval-minutes: 360
+  expire:
+    protection-types:
+      private: true
+      password: true
+      public: false
+    block-types:
+      chest: true
+      trapped-chest: false
+      furnace: false
+      dispenser: false
+      door: false
+      other: false
+
+language:
+  file: messages-en.yml
+
+interaction:
+  require-touch-permission: false
+  trigger-item-id: 69
+  unlock-item-id: 265
+  time-check-item-id: 347
+  admin-tool-item-id: 287
+  prompt-timeout-seconds: 60
+  cost:
+    private: 0.0
+    password: 0.0
+    public: 0.0
