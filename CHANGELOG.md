@@ -2,6 +2,12 @@
 
 This repository does not include git history. The entries below are reconstructed from the files available in this workspace on March 18, 2026 and from the changes applied in this codespace session.
 
+## v1 - Published to GitHub (2026-03-22)
+
+- Published the plugin source and builds to GitHub at https://github.com/patschgoo/ItemLWC.
+- Created release v1 with `ItemLWC.jar` and `language_pack.zip` as downloadable assets.
+- Added `.gitignore` to exclude the `libs/` folder from the repository.
+
 ## 1.0.0-SNAPSHOT - Custom ItemLWC create permissions
 
 ## 1.0.0-SNAPSHOT - Admin removal tool
